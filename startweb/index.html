@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+	<head>		
+		<title>stArt Web Studio</title>
+		<meta charset="utf-8">		
+		<link rel="stylesheet" href="style/style.css">
+		<link rel="shortcut icon" type="image" href="img/favicon.png"/>	
+		
+		<!-- jquery-ui -->
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+		<!-- BootstrapCDN -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+		<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+	</head>		
+<div class="container">
+	<!-- хедер -->
+	<div class="row hed justify-content-around">
+		<div class="col-ld-3 logo">
+			<img src="img/logo.png">
+		</div>
+		<div class="col-ld-1 probel">
+					
+		</div>
+		<div class="col-ld-4 tel">
+			&#9990 &nbsp(095)140-76-74)&nbsp;&nbsp;
+		</div>
+		<a href="#">
+			<div class="col-ld-4 zamZvon" onclick="openF()">
+				<p>НАДІСЛАТИ ПОВІДОМЛЕННЯ</p>
+			</div>
+		</a>		
+	</div>
+	<!-- слайдер -->
+	<div class="row slid">
+		<ul id="slides">
+			 <li class="slide showing"><span>&nbsp CТВОРЕННЯ САЙТІВ РІЗНОЇ СКЛАДНОСТІ &nbsp </span></li>
+			 <li class="slide"><span>&nbspПРОСУВАННЯ САЙТІВ &nbsp</span></li>
+			 <li class="slide"><span> &nbspОБСЛУГОВУВАННЯ САЙТІВ &nbsp</span></li>
+			 <li class="slide"><span>&nbsp РОЗРОБКА САЙТІВ, ЩО ПРОДАЮТЬ "ПІД КЛЮЧ"&nbsp </span></li>
+			 <li class="slide"><span>&nbsp РЕКЛАМА В ІНТЕРНЕТІ &nbsp</span></li>
+			</ul>
+			<div class="row kn">
+				<a href="#"><div class="knop" onclick="openF()"></a>
+					<div class="fon"></div>
+					<div class="fonB"></div>
+					<div class="kolo"></div>
+					<img src="img/trubka1.png">
+					<img src="img/konv1.png">
+					<img src="img/note1.png">
+				</div>
+			</div>				
+	</div>
+	<!-- кнопка -->
+	
+	<!-- форма
+http://www.quizful.net/post/simplest-form-html-css
+	-->
+<div class="row for">	
+	<form id="mess" action= "script/post1.php" method= "post"> 
+ 		<div id="top" class="top">
+			<h2>Зворотний зв'язок</h2>
+		</div>
+		<div class="bottom">
+			<div class="d1">
+				<input type="text" class="inpName" placeholder="Введіть Ваше ім'я" name="name" size="30" maxlength="20"> 
+ 			</div>
+			<div class="d2">
+				<input type= "text" name= "email" placeholder="e-mail"> 
+			</div>
+			<div class="d3"> 
+				<textarea rows= "6" cols= "47" name= "message" placeholder="Повідомлення"></textarea>
+			</div> 
+ 			<div class="send"> 
+				<input type= "submit" name="send" value= "НАДІСЛАТИ"> 
+				<input type="reset" name="res" value= "ОЧИСТИТИ">
+			</div>
+			</div
+		<a href="#"><div class="clos" onclick="closeF()">
+			<p>&times;</p>
+		</div></a>
+		>
+	</form>
+</div>
+ 
+
+	<!-- ми профі -->
+	<div class="row prof">
+		<p class="mx-auto">Професійна розробка та створення веб-сайтів</p>
+	 	<div class="pidkr"></div>
+	 	<p class="mx-auto">Ми створюємо сайти, які роблять наших клієнтів успішними</p>
+	</div>
+	<!-- послуги -->
+	<div class="row poslugu justify-content-around">
+		<div class="col-ld-4 blok1 ">
+			<a class="badge badge-light" href="pages/page1.html"><p>Розробка</p></a>
+			  	<div class="pidkr1"></div>
+			  	<p>Створення сайтів</p>
+				<p class="my-md-0">Розробка 		інтернет-магазинів</p>
+			  	<p>Landing Pages</p>
+			  	<p>Створення блогів</p>
+		</div>
+		 <div class="col-ld-4 blok2">
+			  	<a class="badge badge-light" href="pages/page2.html"><p>Підтримка</p></a>
+			  	<div class="pidkr1"></div>
+			  	<p>Обслуговування</p>
+			  	<p>Реклама</p>
+			  	<p>Просування</p>
+			  </div>
+			  <div class="col-ld-4 blok3">
+			  	<a class="badge badge-light" href="pages/page3.html"><p>Креатив</p></a>
+			  	<div class="pidkr1"></div>
+			  	<p>Індивідуальний дизайн сайтів</p>
+			  	<p>Створення логотипів</p>
+			  </div>
+	</div>
+
+<!-- Технології -->
+
+<div class="row tec">
+	<h2 class="mx-auto my-6">Нам довіряють:</h2>
+</div>
+<div class="row im1">
+	
+</div>
+
+<!-- карта -->
+<div class="row ">
+	<h2 id="jak" class="mx-auto">Як нас знайти:</h2>
+</div >
+	
+<div class="row map">
+	<div class="col-ld-6 map1">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2531.1588845171045!2d26.2105458802343!3d50.62416518281387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472f6cbd89bd747b%3A0xa4f7863ba5e0e826!2z0YPQuy4g0J_QsNCy0LvRjtGH0LXQvdC60L4sIDE2LCDQoNC-0LLQvdC-LCDQoNC-0LLQtdC90YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsIDMzMDE3!5e0!3m2!1sru!2sua!4v1548919827269" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+	<div class="col-ld-6 map2 rv">		
+		<p>КОНТАКТИ</p>
+		<p>Україна, м. Рівне</p>
+		<p>вул. Павлюченка, 16</p>
+		<p>Тел.: 095 140 76 74</p>
+		<p>Тел.: 067 753 85 18</p>	
+	</div>
+</div>
+	<!-- футер -->
+<div class="row footer justify-content-around">
+	<div class="col-ld-3 fd1">
+		<p>WEB-STUDIO START</p>
+		<p>TIME FOR DOING</p>
+		<p>stArt разом знами - поча-</p>
+		<p>ток ваших досягнень</p>
+	</div>
+	<div class="col-ld-3 fd1">
+		<p>КОНТАКТИ</p>
+		<p>Україна, м. Рівне</p>
+		<p>Тел.: 095 140 76 74</p>
+		<p>Тел.: 067 753 85 18</p>	
+	</div>
+	<div class="col-ld-3 fd1">
+		<p>ПОСЛУГИ</p>
+		<p>Створення сайтів</p>
+		<p>Розробка інтернет-магазинів</p>
+		<p>Landing Pages</p>
+		<p>Створення блогів</p>
+	</div>
+	<div class="col-ld-3 fd1">
+		<p>ГРАФІК РОБОТИ</p>
+		<p>Понеділок: 09:00–18:00</p> 
+		<p>Вівторок: 09:00–18:00</p>
+		<p>Середа: 09:00–18:00</p>
+		<p>Четвер: 09:00–18:00</p>
+		<p>Пʼятниця : 09:00–18:00</p>
+	</div>	
+</div>	
+<div class="row pidkrTop">
+		<p class="copy">&copy; Всі права захищені &nbsp &nbsp&nbsp&nbsp 2019p	
+	</div>
+	<div id="timer">
+		<div class="row ">
+			<h2 class="mx-auto razom">Разом з вами вже:</h2>
+		</div>	
+		<div class="parts">
+			<div class="part1">
+				<p id="day"></p>
+				<span>днів</span>
+			</div>
+			<div class="part2">
+				<p id="hour"></p>
+				<span>годин</span>
+			</div>
+			<div class="part3">
+				<p id="min"></p>
+				<span>хвилин</span>
+			</div>
+			<div class="part4">
+				<p id="sec"></p>
+				<span>секунд</span>
+			</div>		
+		</div>
+	</div>
+	<!-- cтрілка вверх-->
+
+	<div class="str">
+		<a href="#"><img src="img/str.png"></a>
+	</div>
+
+	<!-- форма хелп -->
+<form id="help"> 
+	<div class="row put">
+		<p>Будемо раді відповісти на ваші запитання!<br>тел. (095)140-76-74)</p>
+	</div>
+	<div class="row justify-content-center">
+		<input type="button" name="OK" value="OK" class="btn btn-success btn-block" onclick="closeHelp()">
+	</div>
+</fopm>
+
+	
+	
+	
+	
+	
+
+
+
+
+
+
+<body>
+
+
+<script type="text/javascript" src="script/script.js"></script>
+</body>
+</html>
